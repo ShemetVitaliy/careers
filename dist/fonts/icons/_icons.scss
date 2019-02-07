@@ -1,0 +1,116 @@
+@font-face {
+	font-family: "Icons";
+	src: url('../fonts/icons/Icons.eot');
+	src: url('../fonts/icons/Icons.eot?#iefix') format('eot'),
+		url('../fonts/icons/Icons.woff2') format('woff2'),
+		url('../fonts/icons/Icons.woff') format('woff'),
+		url('../fonts/icons/Icons.ttf') format('truetype'),
+		url('../fonts/icons/Icons.svg#Icons') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "Icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == 401 {
+		$char: "\E001";
+	}
+	@if $filename == dental {
+		$char: "\E002";
+	}
+	@if $filename == gym {
+		$char: "\E003";
+	}
+	@if $filename == health {
+		$char: "\E004";
+	}
+	@if $filename == medical {
+		$char: "\E005";
+	}
+	@if $filename == paid {
+		$char: "\E006";
+	}
+	@if $filename == play {
+		$char: "\E007";
+	}
+	@if $filename == pre-tax {
+		$char: "\E008";
+	}
+	@if $filename == shots {
+		$char: "\E009";
+	}
+	@if $filename == subsity {
+		$char: "\E00A";
+	}
+	@if $filename == term {
+		$char: "\E00B";
+	}
+	@if $filename == vision {
+		$char: "\E00C";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-401 {
+	@include icon(401);
+}
+.icon-dental {
+	@include icon(dental);
+}
+.icon-gym {
+	@include icon(gym);
+}
+.icon-health {
+	@include icon(health);
+}
+.icon-medical {
+	@include icon(medical);
+}
+.icon-paid {
+	@include icon(paid);
+}
+.icon-play {
+	@include icon(play);
+}
+.icon-pre-tax {
+	@include icon(pre-tax);
+}
+.icon-shots {
+	@include icon(shots);
+}
+.icon-subsity {
+	@include icon(subsity);
+}
+.icon-term {
+	@include icon(term);
+}
+.icon-vision {
+	@include icon(vision);
+}

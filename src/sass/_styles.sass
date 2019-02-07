@@ -1,0 +1,35 @@
+@import "settings"
+@import "mixin"
+div[target="_blank"],
+a[title]
+  display: none !important
+
+.container
+  width: 100%
+  max-width: calc(1440px + 40px)
+  margin: 0 auto
+  padding: 0 20px
+
+.container-sm
+  width: 100%
+  max-width: calc(1216px + 40px)
+  margin: 0 auto
+  padding: 0 20px
+
+.title
+  font-family: $montserratBold
+  font-style: normal
+  font-weight: normal
+  line-height: 47px
+  font-size: 34px
+  color: $blueDarkColor
+
+.plugin
+  width: 100%
+  min-height: 313px
+  display: flex
+  flex-wrap: wrap
+  padding: 80px 0 95px 0
+
+  span
+    margin: auto

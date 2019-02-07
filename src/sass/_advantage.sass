@@ -1,0 +1,97 @@
+@import "settings"
+@import "mixin"
+.advantage
+  padding-top: 107px
+  padding-bottom: 100px
+  @media screen and (max-width: 1024px)
+    padding-top: 85px
+    padding-bottom: 85px
+
+  &__content
+    padding-left: 162px
+    @media screen and (max-width: 1024px)
+      padding-left: 128px
+    @media screen and (max-width: 750px)
+      padding-left: 0
+
+  &__title
+    font-family: $montserratBold
+    font-style: normal
+    font-weight: normal
+    line-height: 28px
+    font-size: 18px
+    color: #333333
+    margin-bottom: 49px
+    position: relative
+    max-width: 405px
+    @media screen and (max-width: 750px)
+      padding-left: 46px
+      max-width: 425px
+
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      right: calc(100% + 44px)
+      top: 13px
+      width: 118px
+      height: 3px
+      background-color: $redColor
+      @media screen and (max-width: 1024px)
+        width: 60px
+        right: calc(100% + 20px)
+      @media screen and (max-width: 750px)
+        right: initial
+        left: 0
+        width: 36px
+
+.advantage-list
+  width: 100%
+  -webkit-column-count: 3
+  -moz-column-count: 3
+  column-count: 3
+  @media screen and (max-width: 1024px)
+    -webkit-column-count: 2
+    -moz-column-count: 2
+    column-count: 2
+  @media screen and (max-width: 1024px)
+    -webkit-column-count: initial
+    -moz-column-count: initial
+    column-count: initial
+  &__cell
+    width: calc(100% / 3)
+    min-height: 200px
+    @media screen and (max-width: 1024px)
+      width: calc(100% / 2)
+
+  &__item
+    display: flex
+    align-items: flex-start
+    margin-bottom: 27px
+
+  &__icon
+    margin-right: 12px
+    width: 32px
+    min-width: 32px
+    min-height: 32px
+    height: 32px
+    border-radius: 50%
+    background-color: #EDEEF8
+
+    i
+      font-size: 25px
+      color: #333333
+      position: relative
+      left: 10px
+      top: 6px
+
+  &__text
+    font-family: $montserratBold
+    font-style: normal
+    font-weight: normal
+    line-height: 22px
+    font-size: 14px
+    color: #333333
+    padding-top: 5px
+
