@@ -39,29 +39,35 @@
 	@if $filename == health {
 		$char: "\E004";
 	}
-	@if $filename == medical {
+	@if $filename == left-arrow {
 		$char: "\E005";
 	}
-	@if $filename == paid {
+	@if $filename == medical {
 		$char: "\E006";
 	}
-	@if $filename == play {
+	@if $filename == paid {
 		$char: "\E007";
 	}
-	@if $filename == pre-tax {
+	@if $filename == play {
 		$char: "\E008";
 	}
-	@if $filename == shots {
+	@if $filename == pre-tax {
 		$char: "\E009";
 	}
-	@if $filename == subsity {
+	@if $filename == right-arrow {
 		$char: "\E00A";
 	}
-	@if $filename == term {
+	@if $filename == shots {
 		$char: "\E00B";
 	}
-	@if $filename == vision {
+	@if $filename == subsity {
 		$char: "\E00C";
+	}
+	@if $filename == term {
+		$char: "\E00D";
+	}
+	@if $filename == vision {
+		$char: "\E00E";
 	}
 
 	@return $char;
@@ -90,6 +96,9 @@
 .icon-health {
 	@include icon(health);
 }
+.icon-left-arrow {
+	@include icon(left-arrow);
+}
 .icon-medical {
 	@include icon(medical);
 }
@@ -101,6 +110,9 @@
 }
 .icon-pre-tax {
 	@include icon(pre-tax);
+}
+.icon-right-arrow {
+	@include icon(right-arrow);
 }
 .icon-shots {
 	@include icon(shots);

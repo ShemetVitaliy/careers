@@ -1,7 +1,7 @@
 @import "settings"
 @import "mixin"
 div[target="_blank"],
-a[title]
+img[alt="www.000webhost.com"]
   display: none !important
 
 .container
@@ -33,3 +33,55 @@ a[title]
 
   span
     margin: auto
+
+
+.fancybox-nav
+  background: 0 0 !important
+  bottom: -80px
+  top: initial
+  width: 35px
+  height: 35px
+  display: block !important
+
+  span
+    visibility: visible
+    background: $whiteColor
+    position: relative
+    display: inline-flex
+    align-items: center
+    justify-content: center
+
+  &.fancybox-prev,
+  &.fancybox-next
+    background: initial
+
+  &.fancybox-prev
+    left: 50%
+
+    span
+      &:after
+        font-family: "Icons"
+        content: '\E00A'
+        color: $blackColor
+
+  &.fancybox-next
+    right: 50%
+
+    span
+      &:after
+        font-family: "Icons"
+        content: '\E005'
+        color: $blackColor
+
+.fancybox-lock .fancybox-overlay,
+.fancybox-overlay.fancybox-overlay-fixed,
+.fancybox-overlay
+  background: rgba(0, 0, 0, .6) !important
+  //background: red !important
+  overflow: auto
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  width: 100% !important
+  height: 100% !important

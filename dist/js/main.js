@@ -1,14 +1,33 @@
 $(document).ready(function () {
+  $('.play-video').fancybox({
+    type: 'inline'
+  });
+  $('.decades-day').fancybox({
+    prevEffect: 'none',
+    nextEffect: 'none',
+    closeBtn: false
+  });
+  $('.buffalo-press').fancybox({
+    prevEffect: 'none',
+    nextEffect: 'none',
+    closeBtn: false
+  });
+  $('.bowling-party').fancybox({
+    prevEffect: 'none',
+    nextEffect: 'none',
+    closeBtn: false
+  });
+});
+// play-video-popup
+$(document).ready(function () {
   let playVideo = false;
-  $('.play-video').click(function () {
-
+  $('.video-modal video').click(function () {
     if (!playVideo) {
-      $('.banner__video video').trigger('play');
-      $('.play-video').addClass('play');
+      $('.video-modal video').trigger('play');
     } else {
-      $('.banner__video video').trigger('pause');
-      $('.play-video').removeClass('play');
+      $('.video-modal video').trigger('pause');
     }
     playVideo = !playVideo;
   });
 });
+

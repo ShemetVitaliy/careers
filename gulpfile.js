@@ -48,8 +48,7 @@ gulp.task('browserSync', function () {
 gulp.task('scripts', function () {
   return gulp.src([
     'node_modules/jquery/dist/jquery.min.js',
-    // 'node_modules/swiper/dist/js/swiper.min.js'
-    // 'node_modules/magnific-popup/dist/jquery.magnific-popup.min.js'
+    'node_modules/fancybox/dist/js/jquery.fancybox.js'
   ])
       .pipe(concat('libs.min.js'))
       .pipe(gulp.dest('src/js'))
@@ -119,6 +118,9 @@ gulp.task('build', ['clean', 'sass', 'scripts'], function () {
 
   let buildImg = gulp.src('src/img/**/*')
       .pipe(gulp.dest('dist/img'));
+
+  let buildVideo = gulp.src('src/video/**/*')
+      .pipe(gulp.dest('dist/video'));
 
   let buildJs = gulp.src('src/js/**/*')
       .pipe(gulp.dest('dist/js'));
