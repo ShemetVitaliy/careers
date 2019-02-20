@@ -18,9 +18,9 @@ let gulp = require('gulp'),
 gulp.task('deploy', function() {
   // https://1careers-pr.000webhostapp.com/
   var conn = ftp.create({
-    host:      'files.000webhost.com',
-    user:      '1careers-pr',
-    password:  '12121212',
+    host:      '',
+    user:      '',
+    password:  '',
     parallel:  10,
     log: gutil.log
   });

@@ -2,12 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6facf683-7277-4f07-bb5c-0b5e31713341" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/icon111.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/_icons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/libs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/icons/Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/icons/Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/icons/Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/icons/Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/icons/Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/icons/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/401.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/dental.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/gym.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/health.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/left-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/paid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/pre-tax.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/right-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/shots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/subsity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/term.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icons/vision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gallery-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/test2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/libs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/video/test.MOV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons/Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons/Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons/Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons/Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons/Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons/_icons.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_banner.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_banner.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/all.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,13 +73,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="319">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -37,45 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/_styles.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sass/_banner.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-              <folding>
-                <element signature="e#165#293#0" />
-                <element signature="e#248#292#0" />
-                <element signature="e#341#495#0" />
-                <element signature="e#610#719#0" />
-                <element signature="e#826#901#0" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -99,7 +117,6 @@
       <find>}</find>
       <find>gallery-category</find>
       <find>fanc</find>
-      <find>fa</find>
       <find>fancybox</find>
       <find>hide</find>
       <find>&quot;</find>
@@ -111,13 +128,16 @@
       <find>gallery-category__img</find>
       <find>.fancybox-nav</find>
       <find>test2.jpg</find>
+      <find>fa</find>
+      <find>video-modal</find>
+      <find>.play-video i:before, .play-video-popup i:before</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/src/sass</dir>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/src/sass</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -132,22 +152,26 @@
         <option value="$PROJECT_DIR$/src/sass/_header.sass" />
         <option value="$PROJECT_DIR$/src/sass/_media.sass" />
         <option value="$PROJECT_DIR$/src/sass/_modal.sass" />
-        <option value="$PROJECT_DIR$/src/sass/all.sass" />
         <option value="$PROJECT_DIR$/src/sass/_gallery.sass" />
         <option value="$PROJECT_DIR$/src/css/libs.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/sass/libs.sass" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/sass/_advantage.sass" />
         <option value="$PROJECT_DIR$/src/sass/_styles.sass" />
-        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/fonts/icons/_icons.scss" />
+        <option value="$PROJECT_DIR$/src/sass/all.sass" />
+        <option value="$PROJECT_DIR$/src/sass/_icons.scss" />
         <option value="$PROJECT_DIR$/src/sass/_banner.sass" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1724" />
+    <option name="y" value="72" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,23 +194,10 @@
               <item name="careers" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="careers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="careers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="careers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="careers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +212,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/icons" />
       <recent name="$PROJECT_DIR$/src/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,18 +249,24 @@
       <workItem from="1549822041340" duration="1052000" />
       <workItem from="1549875571517" duration="3000" />
       <workItem from="1549922628243" duration="285000" />
-      <workItem from="1549923657155" duration="241000" />
+      <workItem from="1549923657155" duration="555000" />
+      <workItem from="1549972032464" duration="161000" />
+      <workItem from="1550078558666" duration="170000" />
+      <workItem from="1550324538300" duration="116000" />
+      <workItem from="1550341882016" duration="759000" />
+      <workItem from="1550668759773" duration="1336000" />
+      <workItem from="1550670968506" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51743000" />
+    <option name="totallyTimeSpent" value="54975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1724" y="72" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2114165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20436928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -260,7 +281,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289855" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22363405" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.532345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,13 +356,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_modal.sass" />
-    <entry file="file://$PROJECT_DIR$/src/sass/all.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_gallery.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -386,27 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/libs.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/icons/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_advantage.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -426,53 +419,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_styles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/libs.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/icons/_icons.scss" />
+    <entry file="file://$PROJECT_DIR$/src/sass/all.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icons/group.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/icomoon/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="10" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_banner.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
+          <folding>
+            <element signature="e#165#293#0" />
+            <element signature="e#248#292#0" />
+            <element signature="e#341#495#0" />
+            <element signature="e#506#1171#0" />
+            <element signature="e#610#719#0" />
+            <element signature="e#826#901#0" />
+            <element signature="e#913#1170#0" />
+            <element signature="e#957#1008#0" />
+            <element signature="e#1052#1103#0" />
+            <element signature="e#1182#1776#0" />
+            <element signature="e#1247#1602#0" />
+            <element signature="e#1529#1601#0" />
+            <element signature="e#1614#1775#0" />
+            <element signature="e#1703#1775#0" />
+            <element signature="e#1793#3903#0" />
+            <element signature="e#1931#2018#0" />
+            <element signature="e#2060#2121#0" />
+            <element signature="e#2163#2205#0" />
+            <element signature="e#2284#2859#0" />
+            <element signature="e#2567#2732#0" />
+            <element signature="e#2871#3903#0" />
+            <element signature="e#3069#3903#0" />
+            <element signature="e#3183#3227#0" />
+            <element signature="e#3342#3416#0" />
+            <element signature="e#3462#3903#0" />
+            <element signature="e#4273#4306#0" />
+            <element signature="e#4466#4525#0" />
+            <element signature="e#4590#4746#0" />
+            <element signature="e#4596#4745#0" />
+            <element signature="e#4815#4989#0" />
+            <element signature="e#4864#4913#0" />
+            <element signature="e#4922#4957#0" />
+            <element signature="e#5068#5118#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="319">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_styles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_banner.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="e#165#293#0" />
-            <element signature="e#248#292#0" />
-            <element signature="e#341#495#0" />
-            <element signature="e#610#719#0" />
-            <element signature="e#826#901#0" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
